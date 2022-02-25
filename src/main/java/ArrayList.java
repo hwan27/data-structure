@@ -1,5 +1,3 @@
-package interface_form;
-
 import interface_form.List;
 
 import java.util.Arrays;
