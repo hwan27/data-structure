@@ -1,6 +1,6 @@
 package interface_form;
 
-public interface List<E> {
+public interface IList<E> {
 
     boolean add(E value);
 

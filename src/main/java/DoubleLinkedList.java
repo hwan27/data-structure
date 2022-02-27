@@ -1,10 +1,10 @@
-import interface_form.List;
+import interface_form.IList;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.NoSuchElementException;
 
-public class DoubleLinkedList<E> implements List<E>, Cloneable {
+public class DoubleLinkedList<E> implements IList<E>, Cloneable {
 
     private Node<E> head;
     private Node<E> tail;

@@ -1,8 +1,8 @@
-import interface_form.List;
+import interface_form.IList;
 
 import java.util.Arrays;
 
-public class ArrayList<E> implements List<E>, Cloneable {
+public class ArrayList<E> implements IList<E>, Cloneable {
 
     private static final int DEFAULT_CAPACITY = 10;
     private static final Object[] EMPTY_ARRAY = {};
